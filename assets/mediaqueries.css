@@ -41,10 +41,16 @@
   .about-containers {
     margin-top: 0;
   }
+  #projects {
+    height: fit-content;
+  }
 }
 
 
 @media screen and (max-width: 600px){
+  #projects {
+    height: fit-content;
+  }
   #contact, footer {
     height: 40vh;
   }
@@ -95,5 +101,10 @@
   .text-container {
     text-align: justify;
   }
+  .about-me-text{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
 }
+
 

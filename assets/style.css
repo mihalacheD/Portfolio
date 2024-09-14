@@ -126,7 +126,7 @@ a:hover {
 /*CLASS OPEN*/
 .menu-links.open {
   max-height: 300px;
-  background-color: #f5f3f2;
+  background-color: transparent;
 }
 .hamburger-icon.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);
@@ -305,13 +305,15 @@ section {
 }
 
 .certificate {
-  cursor: pointer;
-}
-.certificate:hover {
-  color: gray;
   text-decoration: underline;
   text-underline-offset: 0.4em;
   text-decoration-color: #b5b5b5 ;
+  cursor: pointer;
+}
+.certificate:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.4em;
+  text-decoration-color: black ;
 }
 
 /* experience*/
